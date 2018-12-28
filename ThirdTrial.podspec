@@ -17,4 +17,7 @@ Pod::Spec.new do |s|
           s.source              = { :git => "https://github.com/ShradhaGit/ThirdTrial.git", :tag => "1.0.0" }
           #9.
           s.source_files     = "ThirdTrial", "ThirdTrial/**/*.{h,m,swift}"
+          #10
+          s.dependency 'AFNetworking', '~> 3.0'
+  	s.dependency 'MBProgressHUD', '~> 0.9.2'
     end
