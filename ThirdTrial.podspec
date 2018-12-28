@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
           #9.
           s.source_files     = "ThirdTrial", "ThirdTrial/**/*.{h,m,swift}"
           #10
-  	s.dependency 'MBProgressHUD', '~> 0.9.2'
+  	s.dependency       =  "MBProgressHUD", "~> 0.9.2"
           
     end
